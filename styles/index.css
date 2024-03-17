@@ -487,7 +487,7 @@ footer{
         padding: 5vh 5vw;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: flex-end;
         align-items: center;
 
         & div{
@@ -519,7 +519,7 @@ footer{
     
         & div{
             position: relative;
-            height: 120px;
+            height: 100px;
             aspect-ratio: 1 / 1;
             margin: 30px;
     
@@ -655,7 +655,7 @@ footer{
     
         & div{
             position: relative;
-            height: 120px;
+            height: 80px;
             aspect-ratio: 1 / 1;
             margin: 30px;
     
@@ -688,6 +688,22 @@ footer{
     }
 }
 @media (max-width: 480px){
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: auto;
+        width: auto;
+        z-index: 100;
+    
+        & div{
+            position: relative;
+            height: 60px;
+            aspect-ratio: 1 / 1;
+            margin: 30px;
+    
+        }
+    }
     #info{
         padding: 50vh 0 30vh 0;
 

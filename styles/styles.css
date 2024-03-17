@@ -45,10 +45,18 @@ body{
 @media (max-width: 768px){
     html{
         height: auto;
-        font-size: 14px;
+        font-size: 13px;
     } 
 }
 @media (max-width: 480px){
+    html{
+        height: auto;
+        font-size: 12px;
+    } 
+    :root{
+        --sz-6-: 2rem;
+        --sz-7-: 1.2rem;
+    }
 }
 main{
     position: relative;
